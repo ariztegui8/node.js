@@ -1,0 +1,67 @@
+{
+  "profesores": [
+    {
+      "nombre": "Jorge",
+      "apellido": "Ariztegui",
+      "materias": [
+        {
+          "nombre": "Node desde cero"
+        },
+        {
+          "nombre": "React desde cero"
+        },
+        {
+          "nombre": "Javascript desde cero"
+        }
+      ],
+      "id": "bc64"
+    },
+    {
+      "id": "6515",
+      "nombre": "Camila",
+      "apellido": "Mertens",
+      "materias": [
+        {
+          "nombre": "Pyton desde cero"
+        },
+        {
+          "nombre": "Java desde cero"
+        },
+        {
+          "nombre": "Vue.js desde cero"
+        },
+        {
+          "nombre": "React native.js desde cero"
+        }
+      ]
+    }
+  ],
+  "alumnos": [
+    {
+      "nombre": "Jose",
+      "apellido": "LocoMia",
+      "promedio": 8.2,
+      "id": "3313"
+    },
+    {
+      "nombre": "Martina",
+      "apellido": "Navarro",
+      "promedio": 9.1,
+      "id": "e3a8"
+    }
+  ],
+  "cursos": [
+    {
+      "nombre": "Node.js",
+      "duracion": "7hs",
+      "dificultad": "intermedio",
+      "id": "asd12"
+    },
+    {
+      "nombre": "React.js",
+      "duracion": "9hs",
+      "dificultad": "dificil",
+      "id": "fdg34"
+    }
+  ]
+}
