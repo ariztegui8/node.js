@@ -6,49 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
     <title>Red Social Node.js</title>
 </head>
 
 <body>
 
     <div class="container">
-        <div>
-            <h1 class="title-h1">Red Social Messages</h1>
-        </div>
-
-        <div class="box">
-            <div class="box-title">
-                <h2>¿Que estas pensando?</h2>
+        <div id="contenedor" class="container-hijo">
+            <div>
+                <h1 class="title-h1">Red Social Messages</h1>
             </div>
 
-            <form class="form">
-                <div class="form-title">
-                    <p>Titulo:</p>
-                    <input type="text">
+            <div class="box">
+                <div class="box-title">
+                    <h2>¿Que estas pensando?</h2>
                 </div>
 
-                <div class="form-comentario">
-                    <p>Comentario:</p>
-                    <textarea rows="4"></textarea>
-                </div>
-            </form>
+                <form id="form" class="form">
+                    <div class="form-title">
+                        <p>Titulo:</p>
+                        <input id="title" type="text">
+                    </div>
 
-            <div class="form-btn">
-                <button type="submit">Enviar</button>
+                    <div class="form-comentario">
+                        <p>Comentario:</p>
+                        <textarea id="message" rows="4"></textarea>
+                    </div>
+
+                    <div class="form-btn">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+
             </div>
-
-        </div>
-
-        <div class="box-message">
-            <h3>Soy el titulo del de arriba</h3>
-            <p>soy el comentario del de arriba loco jojojo</p>
-
-            <div class="box-message-btn">
-                <button>Editar</button>
-                <button>Borrar</button>
-            </div>
+           
         </div>
     </div>
 

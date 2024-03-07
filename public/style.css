@@ -5,8 +5,15 @@ body{
 }
 
 .container{
-    background: skyblue;
-    padding: 0 20px;
+    background: #c3eeff;
+    padding: 20px;
+    height: auto;
+}
+
+.container-hijo{
+    max-width: 600px;
+    min-width: 250px;
+    margin: auto;
 }
 
 .title-h1, .box-title h2{
@@ -14,7 +21,8 @@ body{
     text-align: center;
 }
 .title-h1{
-    padding: 30px 0;
+    padding: 25px 0;
+    color: #007BB5;
 }
 
 .box-title h2{
@@ -28,9 +36,6 @@ body{
     justify-content: center;
     text-align: center;
     gap: 5px;
-    max-width: 500px;
-    min-width: 250px;
-    margin: auto;
     margin-bottom: 15px;
 }
 
@@ -51,11 +56,25 @@ body{
     width: 100%;
 }
 
-.form-title input, .form-comentario textarea{
-    padding: 15px;
+.form-title input{
+    height: 35px;
     outline: none;
     border: none;
     border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.form-comentario textarea{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.form-comentario{
+    margin-bottom: 10px;
 }
 
 
@@ -64,14 +83,20 @@ body{
     justify-content: center;
 }
 
-.form-btn button, .box-message-btn button{
+.form-btn button, .box-message-btn{
     padding: 12px 20px;
-    background: rgb(38, 67, 236);
+    background: #007BB5;
     color: #fff;
     border: none;
     outline: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.box-btn{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
 
 .box-message{
@@ -80,11 +105,11 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
     border-radius: 4px;
-    border: 1px solid gray;
+    background: #eaf8fd;
 }
 
 .box{
