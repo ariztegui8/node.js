@@ -10,15 +10,22 @@ form.addEventListener('submit', (e) => {
     
     const newMessage = document.createElement('div');
     newMessage.classList.add('box-message');
+
     const newTitle = document.createElement('h3');
+    newTitle.classList.add('box-message-parrafos');
     newTitle.textContent = titulo;
+
     const newParrafo = document.createElement('p');
+    newParrafo.classList.add('box-message-parrafos');
     newParrafo.textContent = mensaje;
+
     const divBtn = document.createElement('div');
     divBtn.classList.add('box-btn');
+
     const editBtn = document.createElement('button');
     editBtn.classList.add('box-message-btn');
     editBtn.textContent = 'Editar';
+    
     const deleteBtn = document.createElement('button');
     deleteBtn.classList.add('box-message-btn');
     deleteBtn.textContent = 'Borrar';

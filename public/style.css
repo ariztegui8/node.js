@@ -112,6 +112,11 @@ body{
     background: #eaf8fd;
 }
 
+.box-message-parrafos{
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
 .box{
     margin-bottom: 40px;
 }
